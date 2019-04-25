@@ -1,3 +1,56 @@
 /* Define your CSS styles here */
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
+
+#kcontainer {
+  padding: 0.2vw;
+  font-family: "Arial";
+  font-size: 1.99vw;
+  width: 100vw;
+}
+
+.row-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 6.3vw; 
+}
+
+.row-container > div {
+  color: white;
+}
+
+.square:active, .rect-small:active, .rect-medium:active, .rect-large:active {
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.rect-small-special:active, .rect-medium-special:active, .rect-large-special:active {
+	background: rgba(220, 130, 18, 1);
+}
+
+.square { width: 6.3vw;
+      	  margin: 0.1vw;
+          border-radius: 0.5vw;
+          background-color: grey;}
+.rect-small { width: 10.5vw;
+              border-radius: 0.5vw;
+              margin: 0.1vw;
+              background-color: grey;}
+.rect-small-special { width: 10.5vw;
+          	      border-radius: 0.5vw;
+                      margin: 0.1vw;
+          	      background-color: rgba(243, 156, 18, 1); }
+.rect-medium { width: 13vw;
+               border-radius: 0.5vw;
+               margin: 0.1vw;
+               background-color: grey; }
+.rect-medium-special { width: 13vw;
+          	       border-radius: 0.5vw;
+                       margin: 1px;
+          	       background-color: rgba(243, 156, 18, 1); }
+.rect-large { width: 55vw;
+              border-radius: 0.5vw;
+              margin: 0.1vw;
+              background-color: grey; }  
+
+
