@@ -46,7 +46,7 @@
                background-color: grey; }
 .rect-medium-special { width: 13vw;
           	       border-radius: 0.5vw;
-                       margin: 1px;
+                       margin: 0.1vw;
           	       background-color: rgba(243, 156, 18, 1); }
 .rect-large { width: 55vw;
               border-radius: 0.5vw;
